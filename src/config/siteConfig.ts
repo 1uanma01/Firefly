@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "Demo site--cs1",
 
 	// 站点 URL
-	site_url: "https://zhhzzh.cc",
+	site_url: "zhhzzh.cc",
 
 	// 站点描述
 	description:
