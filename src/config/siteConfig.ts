@@ -7,17 +7,17 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly--cs1",
+	title: "zhhzzh's Blog",
 
 	// 站点副标题
-	subtitle: "Demo site--cs1",
+	subtitle: "Welcome to my blog",
 
 	// 站点 URL
-	site_url: "zhhzzh.cc",
+	site_url: "https://zhhzzh.cc",
 
 	// 站点描述
 	description:
-		"这是我的第一个网站",
+		"这是我的第一个网站，主要用于记录我的学习和生活，分享我的兴趣和想法，以及对搭建的第一个blog的尝试。",
 
 	// 站点关键词
 	keywords: [
@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 	// 主题色
 	themeColor: {
 		// 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		hue: 165,
+		hue: 300,
 		// 是否对访问者隐藏主题色选择器
 		fixed: false,
 		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
@@ -50,7 +50,7 @@ export const siteConfig: SiteConfig = {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
 		border: true,
 		// 是否让卡片风格跟随主题色相
-		followTheme: false,
+		followTheme: true,
 	},
 
 	// Favicon 配置
