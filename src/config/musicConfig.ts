@@ -8,7 +8,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 2. 导航栏：在本配置文件把showInNavbar设为false禁用即可
 
 	// 是否在导航栏显示音乐播放器入口
-	showInNavbar: true,
+	showInNavbar: false,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
 	mode: "meting",
@@ -34,7 +34,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		// 歌单/专辑/单曲 ID 或搜索关键词
 		id: "9335440726",
 		// 认证 token（可选）
-		auth: "pgv_pvid=5199597568; fqm_pvqid=7d205d76-3420-4c2d-935f-f14e7a6cc9ce; fqm_sessionid=2057bb04-f152-4990-a25b-166b98babab6; pgv_info=ssid=s3096513440; ts_refer=www.baidu.com/link; ts_uid=1344383190; _qpsvr_localtk=0.4739512452038367; RK=nfxaZmFQ7Q; ptcz=a68becd4b4d54e58bea141aff7aa737a8650b5dbd65a4ac5b1e352d01e08fe97; login_type=1; qqmusic_key=Q_H_L_63k3NxKUYocFf5baQ2PPDsrkbVlC-8llYvyKqTm8fX2Oo7VoET4PtNBxFltlZwaXrBZqFo0CWlPZeC7c_zpZ618KBANkLlA; euin=oi65oKvk7eo5Nv**; psrf_qqrefresh_token=78A6F623C649CE041E6CE4DEE92C491E; wxopenid=; wxunionid=; music_ignore_pskey=202306271436Hn@vBj; tmeLoginType=2; psrf_qqunionid=C09F2CBB500CB95F5DD62A28421EEF72; psrf_qqopenid=3A1467AF852A09279A9540AC879662A9; qm_keyst=Q_H_L_63k3NxKUYocFf5baQ2PPDsrkbVlC-8llYvyKqTm8fX2Oo7VoET4PtNBxFltlZwaXrBZqFo0CWlPZeC7c_zpZ618KBANkLlA; uin=3111454319; wxrefresh_token=; psrf_access_token_expiresAt=1783868212; psrf_musickey_createtime=1778684212; psrf_qqaccess_token=757A01E8BA64BC37A551E75D4B9F9971; ts_last=y.qq.com/n/ryqq_v2/profile/like/song",
+		auth: "",
 		// 备用 API 配置（当主 API 失败时使用）
 		fallbackApis: [
 			"https://api.injahow.cn/meting/?server=:server&type=:type&id=:id",
